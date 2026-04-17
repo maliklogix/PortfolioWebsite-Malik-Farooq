@@ -1,47 +1,84 @@
-<div align="center">
-<img alt="Portfolio" src="https://github.com/dillionverma/portfolio/assets/16860528/57ffca81-3f0a-4425-b31d-094f61725455" width="90%">
-</div>
+# Farooq | Digital Marketing & AI Automation Expert
 
-# Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdillionverma%2Fportfolio)
+Welcome to the source code of my personal portfolio website. This project showcases my journey, projects, and expertise in bridging the gap between digital marketing, AI automation, and full-stack development.
 
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
+![Farooq Portfolio](/public/me.jpg)
 
-# Features
+## 🚀 Overview
 
-- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
-- Includes a blog
-- Responsive for different devices
-- Optimized for Next.js and Vercel
+This is a modern, high-performance portfolio built with **Next.js 16**, **React 19**, and **Tailwind CSS v4**. It features a smooth, interactive experience powered by **Magic UI** and **Motion**, designed to highlight my work in Agentic AI and Marketing Automation.
 
-# Getting Started Locally
+### Key Features
+- **Project Showcase**: A detailed filterable gallery of my AI and Web development projects.
+- **AI Automation Insights**: Dedicated sections highlighting my work with n8n, LLMs, and RAG systems.
+- **Blog System**: MDX-powered blog for sharing thoughts on GEO, SEO, and AI trends.
+- **Dynamic Content**: All data is managed centrally in `src/data/resume.tsx` for easy updates.
+- **Premium Aesthetics**: Dark mode optimized, featuring glassmorphism and subtle micro-animations.
 
-1. Clone this repository to your local machine:
+---
 
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
+- **Library**: [React 19](https://react.dev/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Components**: [Magic UI](https://magicui.design/) & [Radix UI](https://www.radix-ui.com/)
+- **Animations**: [Motion](https://motion.dev/) (Framer Motion)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Content**: [Content Collections](https://www.content-collections.dev/) with MDX
+
+---
+
+## 📦 Getting Started
+
+### Prerequisites
+- Node.js >= 18.0.0
+- npm or pnpm
+
+### Installation
+
+1. **Clone the repository**:
    ```bash
-   git clone https://github.com/dillionverma/portfolio
+   git clone https://github.com/maliklogix/PortfolioWebsite-Malik-Farooq.git
+   cd maliklogix-site
    ```
 
-2. Move to the cloned directory
-
+2. **Install dependencies**:
    ```bash
-   cd portfolio
+   npm install
    ```
 
-3. Install dependencies:
-
+3. **Run the development server**:
    ```bash
-   pnpm install
+   npm run dev
    ```
 
-4. Start the local Server:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-   ```bash
-   pnpm dev
-   ```
+---
 
-5. Open the [Config file](./src/data/resume.tsx) and make changes
+## 📂 Project Structure
 
-# License
+- `src/app/`: Next.js App Router pages and layouts.
+- `src/components/`: Reusable UI components (Magic UI, icons, etc.).
+- `src/data/`: Centralized data store (`resume.tsx`) and static content.
+- `content/`: MDX files for blog posts.
+- `public/`: Static assets (images, fonts).
 
-Licensed under the [MIT license](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
+---
+
+## 🤝 Connect with Me
+
+- **Website**: [maliklogix.com](https://maliklogix.com)
+- **LinkedIn**: [Muhammad Farooq](https://linkedin.com/in/malik-farooq-1332b637a)
+- **GitHub**: [@maliklogix](https://github.com/maliklogix)
+- **Email**: hello@malikfarooq.com
+
+---
+
+## 📜 License
+
+This project is private and intended for personal use as a portfolio.
+
+---
+Built with ❤️ by [Muhammad Farooq](https://maliklogix.com)
