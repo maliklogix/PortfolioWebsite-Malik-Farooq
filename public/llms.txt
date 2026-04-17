@@ -1,0 +1,31 @@
+# Malik Farooq - AI Digital Marketing & Automation Expert
+
+I am a Digital Marketing & AI Automation Expert specializing in building intelligent systems and data-driven marketing strategies that scale business growth. I help brands bridge the gap between human creativity and machine efficiency through Agentic AI and autonomous workflows.
+
+## Key Expertise
+- Agentic AI Marketing & LLM Orchestration
+- Generative Engine Optimization (GEO)
+- n8n Automation Workflows
+- E-commerce Growth & Fraud Protection (Shopify)
+- Predictive Analytics & Lead Scoring
+
+## Core Projects
+- **Social Watchdog**: Autonomous AI monitoring brand mentions and sentiment.
+- **ShoppiGuard**: AI-powered fraud detection for Shopify.
+- **ProfitLens**: LLM-driven ad performance analyzer.
+- **SellerOps AI**: Multi-agent marketplace optimization system.
+- **Pakistan Property AI Platform**: RAG-based real estate discovery engine.
+
+## Social & Contact
+- Website: https://maliklogix.com
+- GitHub: https://github.com/maliklogix
+- LinkedIn: https://linkedin.com/in/maliklogix
+- WhatsApp: https://wa.me/923158304046
+- Email: hello@malikfarooq.com
+
+## Latest Insights (Blog)
+I regularly write about the intersection of AI and Marketing. Key topics include:
+- The shift from SEO to GEO (Generative Engine Optimization).
+- Building autonomous sales agents.
+- Orchestrating multi-agent systems with n8n.
+- Practical guide to `llms.txt`.
