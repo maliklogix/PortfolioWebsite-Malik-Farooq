@@ -1,0 +1,20 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . / [L]
+
+# Custom rules for Node.js Application
+# This ensures that Apache proxies requests to the Node handle
+# replace 3000 with your Node.js port if Hostinger provides a specific one
+# Usually Hostinger manages this automatically if server.js is the startup file, 
+# but having these rules helps prevent 403 errors on subdirectories.
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^$ http://127.0.0.1:3000/ [P,L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)$ http://127.0.0.1:3000/$1 [P,L]
+</IfModule>

@@ -2,7 +2,7 @@
 
 Welcome to the source code of my personal portfolio website. This project showcases my journey, projects, and expertise in bridging the gap between digital marketing, AI automation, and full-stack development.
 
-![Farooq Portfolio](/public/me.jpg)
+
 
 ## 🚀 Overview
 
